@@ -1,0 +1,9 @@
+{
+	"name": "datafactory46-dev-df",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "39390134-a32d-470a-a956-b309e748a857",
+		"tenantId": "6a7f236f-2836-4850-94f7-5eddcc9ea2ac"
+	}
+}
