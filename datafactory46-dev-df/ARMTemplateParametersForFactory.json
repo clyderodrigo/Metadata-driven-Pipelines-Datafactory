@@ -1,0 +1,51 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory46-dev-df"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"linkedService1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://bronzestorage46dev.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sv-cr46-dev.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "db-cr46-dev"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "admin-cr46-dev"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "server46-dev.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "db46-dev"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "admin46-dev"
+		},
+		"linkedService1_properties_typeProperties_server": {
+			"value": "server46-dev.database.windows.net"
+		},
+		"linkedService1_properties_typeProperties_database": {
+			"value": "metadata-db"
+		},
+		"linkedService1_properties_typeProperties_userName": {
+			"value": "admin46-dev"
+		}
+	}
+}
